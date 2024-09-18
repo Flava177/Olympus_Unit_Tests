@@ -1,0 +1,11 @@
+C:\Users\danie\source\repos\Olympus\Olympus\bin\Debug\net8.0\Olympus.deps.json
+C:\Users\danie\source\repos\Olympus\Olympus\bin\Debug\net8.0\Olympus.dll
+C:\Users\danie\source\repos\Olympus\Olympus\bin\Debug\net8.0\Olympus.pdb
+C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\Olympus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\Olympus.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\Olympus.AssemblyInfo.cs
+C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\Olympus.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\Olympus.dll
+C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\refint\Olympus.dll
+C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\Olympus.pdb
+C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\ref\Olympus.dll
