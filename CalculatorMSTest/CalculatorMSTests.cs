@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalculatorMSTest
+namespace OlympusMSTest
 {
     [TestClass]
-    public class CalculatorMSTests
+    public class OlympusMSTest
     {
         [TestMethod]
         public void AddNumbers_InputTwoInt_GetCorrectAddition()

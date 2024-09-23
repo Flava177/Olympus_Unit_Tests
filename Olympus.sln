@@ -5,9 +5,9 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus", "Olympus\Olympus.csproj", "{CB443267-900D-4201-906D-25FF0154145E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorMSTest", "CalculatorMSTest\CalculatorMSTest.csproj", "{32BDB9DF-B9C6-4971-94AE-0AD265082D74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OlympusMSTest", "CalculatorMSTest\OlympusMSTest.csproj", "{32BDB9DF-B9C6-4971-94AE-0AD265082D74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlympusNUnitTest", "OlympusNUnitTest\OlympusNUnitTest.csproj", "{1C57FBE1-BA41-4F5F-9B38-F05E0098761E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OlympusNUnitTest", "OlympusNUnitTest\OlympusNUnitTest.csproj", "{1C57FBE1-BA41-4F5F-9B38-F05E0098761E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

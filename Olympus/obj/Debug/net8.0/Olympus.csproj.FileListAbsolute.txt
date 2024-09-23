@@ -9,3 +9,4 @@ C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\Olympus.dll
 C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\refint\Olympus.dll
 C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\Olympus.pdb
 C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\ref\Olympus.dll
+C:\Users\danie\source\repos\Olympus\Olympus\obj\Debug\net8.0\Olympus.sourcelink.json

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YS0rV7UVCZ0=",
+  "dgSpecHash": "6C5JYLt1bN0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\source\\repos\\Olympus\\CalculatorMSTest\\CalculatorMSTest.csproj",
+  "projectFilePath": "C:\\Users\\danie\\source\\repos\\Olympus\\CalculatorMSTest\\OlympusMSTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

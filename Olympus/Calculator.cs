@@ -7,5 +7,14 @@
             return a + b;
         }
 
+        public bool IsInputOddNumber(int a)
+        {
+            return (a % 2 != 0);
+        }
+
+        public double AddDoubleNumbers(double a, double b)
+        {
+            return a + b;
+        }
     }
 }
