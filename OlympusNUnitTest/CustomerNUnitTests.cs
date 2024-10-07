@@ -21,9 +21,14 @@ namespace Olympus
         public void CombineTwoStringsForFullName()
         {
             customer.CombineFirstLastNameAsFullName("Daniel", "Adjei");
-            Assert.That(customer.GreetMessage, Is.EqualTo("Hello, Daniel Adjei"));
-            Assert.That(customer.GreetMessage, Does.Contain("Hello"));
-            Assert.That(customer.GreetMessage, Does.Match("Hello, [A-Z]{1}[a-z]+ [A-Z]{1}[a-z]"));
+            Assert.Multiple(() =>
+            {
+                Assert.That(customer.GreetMessage, Is.EqualTo("Hello, Daniel Adjei"));
+                Assert.That(customer.GreetMessage, Does.Contain("1Hello"));
+                Assert.That(customer.GreetMessage, Does.Match("Hello, [A-Z]{1}[a-z]+ [A-Z]{1}[a-z]"));
+                Assert.That(customer.GreetMessage, Does.StartWith("1Hello"));
+            });
+           
         }
 
         [Test]
