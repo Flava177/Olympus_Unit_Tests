@@ -10,6 +10,15 @@ namespace Olympus
     [TestFixture]
     public class OlympusNUnitTests
     {
+        public Calculator calculator;
+
+        [SetUp]
+        public void Setup()
+        {
+            calculator = new Calculator();
+        }
+
+
         [Test]
         public void AddNumbers_InputTwoInt_GetCorrectAddition()
         {
@@ -51,6 +60,19 @@ namespace Olympus
             var result = calc.AddDoubleNumbers(a, b);
             Assert.AreEqual(97.349, result, 0.5);
 
+        }
+
+        [Test]
+
+        public void CheckOddNumbers()
+        {
+
+            List<int> expectedOddRange = new() { 3, 5, 7, 9};
+            List<int> rangedValues = calculator.GetOddNumbersRange(3,10);
+
+            Assert.That(rangedValues, Is.EquivalentTo(expectedOddRange));
+            Assert.That(rangedValues, Is.Unique);
+            Assert.That(rangedValues, Does.Contain(3));
         }
 
     }

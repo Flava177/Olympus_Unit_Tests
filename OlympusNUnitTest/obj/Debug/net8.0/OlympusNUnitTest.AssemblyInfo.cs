@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OlympusNUnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0899a89662462d89c1afa1ce42612ef0f992e123")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bd469e0acd217fb3620579988eafdfb8d0146fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("OlympusNUnitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OlympusNUnitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
