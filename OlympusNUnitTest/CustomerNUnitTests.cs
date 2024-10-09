@@ -36,5 +36,24 @@ namespace Olympus
         {
             Assert.IsNull(customer.GreetMessage);
         }
+
+        [Test]
+        public void ReturnExceptionIfNoFirstName()
+        {
+            customer.CombineFirstLastNameAsFullName("ben", "");
+
+            Assert.IsNotNull(customer.GreetMessage);
+            Assert.IsFalse(string.IsNullOrWhiteSpace(customer.GreetMessage));
+        }
+
+        [Test]
+        public void GreetMessageThrowsExceptionEmptyFirstName()
+        {
+            var exceptionDetails = Assert.Throws<ArgumentException>(() =>
+            {
+                customer.CombineFirstLastNameAsFullName("", "Manu");
+            });
+            Assert.AreEqual("Empty first name", exceptionDetails.Message);
+        }
     }
 }
