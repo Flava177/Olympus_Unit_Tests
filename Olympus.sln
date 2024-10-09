@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OlympusMSTest", "Calculator
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OlympusNUnitTest", "OlympusNUnitTest\OlympusNUnitTest.csproj", "{1C57FBE1-BA41-4F5F-9B38-F05E0098761E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlympusGradeNUnitTest", "OlympusGradeNUnitTest\OlympusGradeNUnitTest.csproj", "{04D36213-D151-4922-8E3A-8C09F761AFC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1C57FBE1-BA41-4F5F-9B38-F05E0098761E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C57FBE1-BA41-4F5F-9B38-F05E0098761E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C57FBE1-BA41-4F5F-9B38-F05E0098761E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D36213-D151-4922-8E3A-8C09F761AFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D36213-D151-4922-8E3A-8C09F761AFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D36213-D151-4922-8E3A-8C09F761AFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D36213-D151-4922-8E3A-8C09F761AFC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

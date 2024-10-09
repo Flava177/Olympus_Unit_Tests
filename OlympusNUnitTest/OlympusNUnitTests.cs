@@ -75,5 +75,39 @@ namespace Olympus
             Assert.That(rangedValues, Does.Contain(3));
         }
 
+        [Test]
+        public void FiboRangeOfOne()
+        {
+            Fibo fibo = new Fibo();
+            fibo.Range = 1;
+            List<int> actual = new List<int> { 0 };
+            List<int> values = fibo.GetFiboSeries();
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(values, Is.Not.Null.And.Not.Empty);
+                Assert.That(values, Is.Ordered);
+                Assert.That(values, Is.EquivalentTo(new[] { 0 }));
+                Assert.That(values, Is.EqualTo(actual));
+            });
+        }
+
+        [Test]
+        public void FiboRangeOSix()
+        {
+            Fibo fibo = new Fibo();
+            fibo.Range = 6;
+            List<int> values = fibo.GetFiboSeries();
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(values, Does.Contain(3));
+                Assert.That(values, Has.Count.EqualTo(6));
+                Assert.That(values, Does.Not.Contain(4));
+                Assert.That(values, Is.EquivalentTo(new[] { 0, 1, 1, 2, 3, 5 }));
+            });
+
+        }
+
     }
 }
