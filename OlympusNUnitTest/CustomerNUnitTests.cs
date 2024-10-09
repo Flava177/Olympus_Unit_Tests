@@ -55,5 +55,14 @@ namespace Olympus
             });
             Assert.AreEqual("Empty first name", exceptionDetails.Message);
         }
+
+        //testing for type of customer
+        [Test]
+        public void GetCustomerTypeWithOrderDetails()
+        {
+            customer.OrderTotal = 199;
+            var result = customer.GetCustomerDetails();
+            Assert.That(result, Is.TypeOf<BasicCustomer>());
+        }
     }
 }
